@@ -1,6 +1,5 @@
 public class NoTriples {
     public boolean noTriples(int[] nums) {
-        int count =0 ;
         int len = nums.length;
         for(int i=0; i<len -2 ;i++){
             int value = nums[i];
